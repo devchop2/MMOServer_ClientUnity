@@ -19,21 +19,6 @@ public class SessionManager
         }
     }
 
-    public void SendForEach()
-    {
-        lock (lockObj)
-        {
-            foreach (var item in _sessions)
-            {
-                C_Chat chatting = new C_Chat()
-                {
-                    chat = "I'm Unity Client",
-                };
-                item.Send(chatting.Serialize());
-            }
-        }
-    }
-
 }
 
 

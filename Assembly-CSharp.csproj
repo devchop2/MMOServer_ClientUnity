@@ -57,17 +57,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/Network/PacketSession.cs" />
-    <Compile Include="Assets/Scripts/NetworkManager.cs" />
-    <Compile Include="Assets/Scripts/Packet/ClientPacketManager.cs" />
-    <Compile Include="Assets/Scripts/Packet/PacketHandler.cs" />
+    <Compile Include="Assets/Scripts/Network/NetworkManager.cs" />
+    <Compile Include="Assets/Scripts/Network/Packet/ClientPacketManager.cs" />
+    <Compile Include="Assets/Scripts/Network/Packet/PacketHandler.cs" />
+    <Compile Include="Assets/Scripts/Network/PacketQueue.cs" />
     <Compile Include="Assets/Scripts/Network/SendBuffer.cs" />
     <Compile Include="Assets/Scripts/Network/ServerSession.cs" />
     <Compile Include="Assets/Scripts/Network/SessionManager.cs" />
     <Compile Include="Assets/Scripts/Network/RecvBuffer.cs" />
     <Compile Include="Assets/Scripts/Network/Session.cs" />
     <Compile Include="Assets/Scripts/Network/Connector.cs" />
-    <Compile Include="Assets/Scripts/Packet/GenPackets.cs" />
-    <Compile Include="Assets/Scripts/PacketQueue.cs" />
+    <Compile Include="Assets/Scripts/Network/Packet/GenPackets.cs" />
+    <Compile Include="Assets/Scripts/Player.cs" />
+    <Compile Include="Assets/Scripts/MyPlayer.cs" />
+    <Compile Include="Assets/Scripts/PlayerManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/Resources/DungeonPack/README.txt" />
+    <None Include="Assets/Resources/Chaeracters/changelog.txt" />
+    <None Include="Assets/Resources/DungeonPack/tiles/wall/obs.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
